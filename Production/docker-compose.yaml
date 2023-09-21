@@ -1,0 +1,21 @@
+# version: '3'
+# services:
+#   nginx:
+#     build:
+#       context: .
+#     ports:
+#       - 3000:8001
+
+version: "3.4"
+
+services:
+  seafoodapi:
+    image: lephuminh/seafoodapi
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:443"
+  nginx:
+    image: lephuminh/seaweb_image
+    ports:
+      - 3000:80

@@ -1,0 +1,15 @@
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\bin\Release\net6.0\SeafoodServices.deps.json
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\bin\Release\net6.0\SeafoodServices.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\bin\Release\net6.0\SeafoodServices.pdb
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\bin\Release\net6.0\DoMains.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\bin\Release\net6.0\DoMains.pdb
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.csproj.AssemblyReference.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.AssemblyInfoInputs.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.AssemblyInfo.cs
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.csproj.CoreCompileInputs.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.csproj.CopyComplete
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\refint\SeafoodServices.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\SeafoodServices.pdb
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodServices\obj\Release\net6.0\ref\SeafoodServices.dll

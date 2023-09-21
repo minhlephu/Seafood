@@ -1,0 +1,14 @@
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\bin\Release\net6.0\DoMains.deps.json
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\bin\Release\net6.0\DoMains.runtimeconfig.json
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\bin\Release\net6.0\DoMains.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\bin\Release\net6.0\DoMains.pdb
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.csproj.AssemblyReference.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.AssemblyInfoInputs.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.AssemblyInfo.cs
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.csproj.CoreCompileInputs.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\refint\DoMains.dll
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.pdb
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\DoMains.genruntimeconfig.cache
+C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\DoMains\obj\Release\net6.0\ref\DoMains.dll

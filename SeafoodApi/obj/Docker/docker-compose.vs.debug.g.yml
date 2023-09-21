@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  seafoodapi:
+    image: seafoodapi:dev
+    container_name: SeafoodApi
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "SeafoodApi"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+    volumes:
+      - C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\SeafoodApi:/app
+      - C:\Users\QTvn\Desktop\WebAPI\SeafoodApi:/src
+      - C:\Users\QTvn\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\QTvn\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\DevExpress 22.1\Components\Offline Packages:/root/.nuget/fallbackpackages:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/net6.0/SeafoodApi.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

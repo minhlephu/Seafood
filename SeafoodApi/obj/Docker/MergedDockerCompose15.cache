@@ -1,0 +1,66 @@
+name: dockercompose15282982283518148966
+services:
+  db:
+    container_name: Seafood
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Lpm@2302
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+  nginx:
+    image: nginx:1.23.3
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "80"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\QTvn\Desktop\WebAPI\SeafoodWeb\dist
+      target: /usr/share/nginx/html
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\QTvn\Desktop\WebAPI\SeafoodApi\default.conf
+      target: /etc/nginx/conf.d/default.conf
+      bind:
+        create_host_path: true
+  seafoodapi:
+    build:
+      context: C:\Users\QTvn\Desktop\WebAPI\SeafoodApi
+      dockerfile: SeafoodApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: seafoodapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "8080"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\QTvn\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\QTvn\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose15282982283518148966_default
